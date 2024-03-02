@@ -291,7 +291,7 @@
 			children = (
 				2E6E0F152B926E9000F82A0A /* TicketBookingListingViewController.swift */,
 				2E6E0F172B926EA200F82A0A /* xib's */,
-				2EA6A8C22B93009C00B94AED /* Book Seats */,
+				2EA6A8C22B93009C00B94AED /* BookSeats */,
 			);
 			path = TicketBookingListingPage;
 			sourceTree = "<group>";
@@ -323,12 +323,12 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		2EA6A8C22B93009C00B94AED /* Book Seats */ = {
+		2EA6A8C22B93009C00B94AED /* BookSeats */ = {
 			isa = PBXGroup;
 			children = (
 				2EA6A8C32B9300C500B94AED /* BookSeatsViewController.swift */,
 			);
-			path = "Book Seats";
+			path = BookSeats;
 			sourceTree = "<group>";
 		};
 		BFAAF5E741B449D66B0AD221 /* Frameworks */ = {
@@ -641,6 +641,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -670,6 +671,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

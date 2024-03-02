@@ -12,7 +12,7 @@ import SDWebImage
 class SearchViewController: UIViewController {
     var searchDataList : SearchModel?
     var genreDataList : GenreModel?
-    var GitCheck = true
+   
     
     @IBOutlet weak var headerText: UILabel!
     @IBOutlet weak var searchedView: UIView!

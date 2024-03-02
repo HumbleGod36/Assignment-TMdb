@@ -59,7 +59,7 @@ func viewShadow(View: UIView){
 func textFieldStyling(textField : UITextField) {
     textField.borderStyle = .none
     textField.layer.borderColor = UIColor.gray.cgColor
-    textField.layer.borderWidth = 2
+    textField.layer.borderWidth = 2.5
     textField.layer.cornerRadius = 24
     textField.tintColor = .cyan
 }
