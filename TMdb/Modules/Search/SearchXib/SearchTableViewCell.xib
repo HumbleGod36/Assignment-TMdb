@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="SearchTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="105" id="KGk-i7-Jjw" customClass="SearchTableViewCell" customModule="TMdb" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="481" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="481" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y5t-Js-Kz0">
+                        <rect key="frame" x="0.0" y="10" width="150" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="XXM-gC-gud"/>
+                            <constraint firstAttribute="height" constant="80" id="fSk-eZ-iFU"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIB-FU-gvS">
+                        <rect key="frame" x="166" y="26" width="275" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wA-cC-e70">
+                        <rect key="frame" x="166" y="45" width="26.333333333333343" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="u8z-cE-eJv">
+                        <rect key="frame" x="457" y="26.666666666666671" width="4" height="16"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YZT-9c-WE3">
+                                <rect key="frame" x="0.0" y="0.0" width="4" height="4"/>
+                                <color key="backgroundColor" red="0.078808806839999995" green="0.99967080350000004" blue="0.81851214169999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YZT-9c-WE3" secondAttribute="height" multiplier="1:1" id="Z0U-Lb-gPi"/>
+                                    <constraint firstAttribute="height" constant="4" id="rFL-We-m51"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PcP-tV-adt">
+                                <rect key="frame" x="0.0" y="5.9999999999999964" width="4" height="4"/>
+                                <color key="backgroundColor" red="0.078808806839999995" green="0.99967080350000004" blue="0.81851214169999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="93x-Fh-B7q"/>
+                                    <constraint firstAttribute="width" secondItem="PcP-tV-adt" secondAttribute="height" multiplier="1:1" id="VqC-iX-MkV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k4U-gQ-abN">
+                                <rect key="frame" x="0.0" y="11.999999999999996" width="4" height="4"/>
+                                <color key="backgroundColor" red="0.078808806839999995" green="0.99967080350000004" blue="0.81851214169999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="k4U-gQ-abN" secondAttribute="height" multiplier="1:1" id="iEu-Fr-6cv"/>
+                                    <constraint firstAttribute="height" constant="4" id="xm0-eq-lhz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="y5t-Js-Kz0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5Tz-0o-iw0"/>
+                    <constraint firstItem="XIB-FU-gvS" firstAttribute="leading" secondItem="y5t-Js-Kz0" secondAttribute="trailing" constant="16" id="AJQ-yd-nVz"/>
+                    <constraint firstItem="XIB-FU-gvS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="26" id="BLg-u8-3GR"/>
+                    <constraint firstAttribute="trailing" secondItem="u8z-cE-eJv" secondAttribute="trailing" constant="20" symbolic="YES" id="IAq-Vs-WVF"/>
+                    <constraint firstItem="u8z-cE-eJv" firstAttribute="leading" secondItem="XIB-FU-gvS" secondAttribute="trailing" constant="16" id="O7V-f7-Xza"/>
+                    <constraint firstItem="6wA-cC-e70" firstAttribute="top" secondItem="XIB-FU-gvS" secondAttribute="bottom" constant="2" id="RRp-9e-VnR"/>
+                    <constraint firstItem="y5t-Js-Kz0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="XuV-uK-bm2"/>
+                    <constraint firstItem="u8z-cE-eJv" firstAttribute="centerY" secondItem="XIB-FU-gvS" secondAttribute="centerY" id="Zeb-pd-i7T"/>
+                    <constraint firstItem="6wA-cC-e70" firstAttribute="leading" secondItem="XIB-FU-gvS" secondAttribute="leading" id="cLZ-aq-bJp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieGenre" destination="6wA-cC-e70" id="qEh-zT-nor"/>
+                <outlet property="movieImage" destination="y5t-Js-Kz0" id="YnU-M5-IZK"/>
+                <outlet property="movieName" destination="XIB-FU-gvS" id="GFh-Jr-EoU"/>
+            </connections>
+            <point key="canvasLocation" x="81.679389312977094" y="9.5070422535211279"/>
+        </tableViewCell>
+    </objects>
+</document>

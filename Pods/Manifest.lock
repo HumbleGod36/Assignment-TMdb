@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.8.1)
+  - SDWebImage (5.18.10):
+    - SDWebImage/Core (= 5.18.10)
+  - SDWebImage/Core (5.18.10)
+  - YouTubePlayer (0.7.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - SDWebImage
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  SDWebImage: fc8f2d48bbfd72ef39d70e981bd24a3f3be53fec
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
+
+PODFILE CHECKSUM: d6e5a6cc81d45287ab6a23d62b5371f057e8ba81
+
+COCOAPODS: 1.14.3
